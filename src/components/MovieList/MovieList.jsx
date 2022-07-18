@@ -3,7 +3,7 @@ import React from "react";
 import Movie from "../Movie/Movie";
 import useStyles from "./styles";
 
-const MovieList = ({ movies }) => {
+const MovieList = ({ movies, numberOfMovies }) => {
   const { results } = movies;
   const classes = useStyles();
   return (
